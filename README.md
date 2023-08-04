@@ -5,7 +5,7 @@ Running a web app on Tomcat using Docker
 
 * Install [Docker](https://docs.docker.com/install/).
 ```
-Clone this repository - $git clone https://github.com/maveric-coder/docker-tomcat-war.git
+git clone https://github.com/maveric-coder/docker-tomcat-war.git
 cd 'docker-tomcat-war'
 docker build -t mywebapp .
 docker run -p 8080:8080 mywebapp
