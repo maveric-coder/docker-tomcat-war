@@ -1,5 +1,5 @@
 FROM tomcat:8.0-alpine
-LABEL maintainer="suan@hotmail.com"
+LABEL maintainer="anand@hotmail.com"
 
 ADD sample.war /usr/local/tomcat/webapps/
 ADD tomcat-users.xml /usr/local/tomcat/conf/
